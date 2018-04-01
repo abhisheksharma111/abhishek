@@ -1,35 +1,23 @@
 package abhishek;
-
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class Solution {
 
     public static void main(String[] args) {
-
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();            
-        String ans="";
-        if(n%2==1)
-        {
-          ans = "Weird";
-        }
-        else if ((n%2==0))
-        {
-         if (n>=2 && n <=5) { 
-           ans ="Not Weird"; 
-        }
-         if (n>=6 && n <=20) {
-            ans ="Weird";
-        }
-        else 
-        { 
-        ans = "Not Weird";
-        }
-        }
-        System.out.println(ans);  
+        int i = 42;
+        double d = 42.0;
+        String s = "HackerRank questions";
+        
+        Scanner scan = new Scanner(System.in);
+               
+        int i1 = scan.nextInt();
+        
+        double d1 = scan.nextDouble();
+        
+        String s1 = scan.next(); 
+        
+        System.out.println("String :" + s1);
+        System.out.println("Double :" + d1);
+        System.out.println("Int :" + i1);
     }
 }
