@@ -4,12 +4,18 @@ public class StringExample
    {
 	 public static void main(String args[])
 	 {
-		 String s = "abhishek";
-		 String s1 = removeCharAt(s,4);
+		 String s1 = "spring";
+	/*	 String s1 = removeCharAt(s,4);
 		 System.out.println(s1);
 	 }
 
 	private static String removeCharAt(String s, int i) {
-		return null;
+		return null;      */
+		 
+		 String s2 = s1 + "summer";
+		 s1.concat("fall");
+		 s2.concat(s1);
+		 s1 += "winter";
+		 System.out.println(s1 + " " +s2);
 	}
 }
