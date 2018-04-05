@@ -29,6 +29,9 @@ public class ArrayListExample
     	System.out.println(itr.next());
     }
     
+    list.remove(2);
+    System.out.println("after removing index at 2 :" +list);
+    
     Collections.sort(list, Collections.reverseOrder());
     System.out.println("sorting or decending the arraylist :");
     Iterator<String> itr1=list.iterator();
@@ -38,7 +41,7 @@ public class ArrayListExample
     }
     if(list!=null && !list.isEmpty())
     {
-    	System.out.println("last element is :" + list.get(list.size()-1));
+    	System.out.println("last element is :" + list.get(list.size()-2) + " " + list.get(list.size()-1));
     }   
 }
 }

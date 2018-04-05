@@ -1,7 +1,7 @@
 package abhishek;
 
-class Table{  
-  
+class Table
+{    
  synchronized static void printTable(int n)
  {  
    for(int i=1;i<=10;i++)
@@ -14,7 +14,6 @@ class Table{
    }  
  }  
 }
-  
 class MyThread1 extends Thread{  
 public void run(){  
 Table.printTable(1);  
@@ -51,5 +50,5 @@ t1.start();
 t2.start();  
 t3.start();  
 t4.start();  
-}  
-}  
+}
+}
