@@ -1,6 +1,7 @@
 package abhishek;
 
-public class CallByValue {
+public class CallByValue 
+{
 	int a=50;
 	void change(int a)
 	{
@@ -13,5 +14,4 @@ public class CallByValue {
 		c.change(100);
 		System.out.println("after change :" +c.a);
 	}
-
 }

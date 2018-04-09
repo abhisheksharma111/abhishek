@@ -14,5 +14,4 @@ public class CallByReference
 		c.change(c);
 		System.out.println("after change :" +c.a);
 	}
-
 }

@@ -9,5 +9,4 @@ public class WrapperExample1
 		int a = i.intValue();
 		System.out.println(i + " " + j + " " + a);
 	}
-
 }

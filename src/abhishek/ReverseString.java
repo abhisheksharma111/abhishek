@@ -16,20 +16,21 @@ public class ReverseString
 		}
 		System.out.println("reverse string is :" +reverse);*/
 		
-		
 		String s = "abhishek";
 		char c[] = s.toCharArray();
 		int i;
-		for(i=c.length-1; i>=0 ; i--){
+		for(i=c.length-1; i>=0 ; i--)
+		{
 			System.out.println(c[i]);
 		}
-        	System.out.println("space..............:");
+        	System.out.println(".............space..............:");
         	
 		  String s1 = "tutorialspoint";
 	      char c1[] = s1.toCharArray();
 	      int j;
-	      for (j = c1.length-1; j>=0 ;j--) {
-	        System.out.println(c1[j]);
-	     }
+	      for (j = c1.length-1; j>=0 ;j--) 
+	      {
+	        System.out.print(c1[j]);
+	      }
 	}
 }

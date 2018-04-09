@@ -1,27 +1,27 @@
 package abhishek;
 
 public class FactorialInjava {
+	private static String number;
 	public static void main(String args[])
 	{
-		System.out.println("factorial of 5 using recursion :" + factorial(5));
-		System.out.println("factorial of 6 using iterator :" + factorial(6));
+      int i1,fact1=1;
+	  int number1=5; 
+	  for(i1=1;i1<=number1;i1++)
+	  {    
+	      fact1=fact1*i1;    
+	  }    
+	  System.out.println("Factorial of "+number1+" is: "+fact1);
+	  
+	  int i2,fact2=1;  
+	  int number2=4;   
+	  fact2 = factorial(number2);   
+	  System.out.println("Factorial of number using recursion "+number2+" is: "+fact2); 
 	}
-	public static int factorial(int number)
-	{
-		if(number==0)
-		{
-			return 0;
-		}
-		return number*factorial(number-1);
-	}
-    public static int fact(int number)
-    {
-    	int result=1;
-    	while(number!=0)
-    	{
-    		result=result*number;
-    		number--;
-    	}
-    	return result;
-    }
+	static int factorial(int n)
+	{    
+		  if (n == 0)    
+		    return 1;    
+		  else    
+		    return(n * factorial(n-1));    
+		 }   
 }

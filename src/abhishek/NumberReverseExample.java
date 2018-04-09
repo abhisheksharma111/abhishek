@@ -1,6 +1,7 @@
 package abhishek;
 
-public class NumberReverseExample {
+public class NumberReverseExample 
+{
 	public int reverseNumber(int number)
 	{
 		int reverse=0;
@@ -16,5 +17,4 @@ public class NumberReverseExample {
 		NumberReverseExample nre = new NumberReverseExample();
 		System.out.println("Reverse: " + nre.reverseNumber(12345));
 	}
-
 }
