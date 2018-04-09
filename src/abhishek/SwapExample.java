@@ -11,7 +11,6 @@ public class SwapExample {
 	  System.out.println("Value of y is :" + y);
 	  swap(x, y);
 	 }
-
 	  static void swap(int x, int y) {
 	  int temp = x;
 	  x = y;
