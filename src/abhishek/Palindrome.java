@@ -18,4 +18,4 @@ class Palindrome
 	  else    
 	   System.out.println("not palindrome");    
 	}  
-}  
+}
